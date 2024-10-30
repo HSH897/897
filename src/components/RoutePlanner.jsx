@@ -142,15 +142,21 @@ const RoutePlanner = ({ handleConfirm, routeInfo, setRouteInfo, totalDistance, s
                 top: '15px',
                 right: '40px',
                 width: '360px' ,
-                // height: 'auto',
+                width: {
+                    xs: '50%',     // 手机上宽度 50%
+                    sm: '360px',   // 桌面上宽度 360px
+                  },
+                  height: {
+                    xs: '50%',    // 手机上高度 100%
+                    sm: '500px',   // 桌面上高度 500px
+                  },
                 // maxHeight: { sm: '60%', md: '530px' }, // 最大高度
-                padding: '20px',
+                padding: 2,
                 zIndex: 1000,
                 backgroundImage: 'url(/7.jpg)',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
                 // height: '100vh',
-
                 backgroundColor: 'grey.100',
                 boxShadow: '0 2px 10px rgba(0,0,0,0.2)',
                 borderRadius: '12px',
@@ -159,6 +165,11 @@ const RoutePlanner = ({ handleConfirm, routeInfo, setRouteInfo, totalDistance, s
                 justifyContent: 'flex-start',
                 overflow: 'auto', // 滚动条
                 transition: 'width 0.3s, height 0.3s',
+                transform: {
+                    xs: 'scale(0.8)', // 手机上缩放 80%
+                    sm: 'scale(1)',   // 桌面上正常大小
+                },
+                transformOrigin: 'top right', 
             }}
         >
 
