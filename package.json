@@ -1,0 +1,28 @@
+{
+    "name": "simple-mui-pwa",
+    "version": "6.0.1",
+    "description": "A simple PWA with MUI and AMap",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "start": "next start",
+        "build": "next build"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.13.3",
+        "@emotion/styled": "^11.13.0",
+        "@iconify/react": "^5.0.2",
+        "@mui/icons-material": "^6.1.5",
+        "@mui/material": "^5.15.20",
+        "express": "^4.21.1",
+        "next": "^14.2.4",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "simplebar-react": "^3.2.6",
+        "window": "^4.2.7"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.0"
+    }
+}
