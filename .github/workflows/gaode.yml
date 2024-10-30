@@ -25,7 +25,7 @@ jobs:
       - name: Install and Build
         run: |
           yarn install
-          yarn build
+          yarn dev
 
       # 部署
       - name: Deploy
