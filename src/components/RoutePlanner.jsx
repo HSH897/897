@@ -153,7 +153,7 @@ const RoutePlanner = ({ handleConfirm, routeInfo, setRouteInfo, totalDistance, s
                 // maxHeight: { sm: '60%', md: '530px' }, // 最大高度
                 padding: 2,
                 zIndex: 1000,
-                backgroundImage: 'url(/7.jpg)',
+                backgroundImage: 'url(https://hsh897.github.io/897/7.jpg)',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
                 // height: '100vh',
