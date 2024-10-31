@@ -77,7 +77,7 @@ const MapComponent = () => {
           AMap.plugin('AMap.Driving', () => {
             const drivingInstance = new AMap.Driving({
               map: map,
-              policy: AMap.DrivingPolicy.LEAST_DISTANCE,
+              policy: AMap.DrivingPolicy.LEAST_FEE,
               extensions: 'all',
             });
             setDriving(drivingInstance);
